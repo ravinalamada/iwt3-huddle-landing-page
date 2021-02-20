@@ -1,0 +1,25 @@
+.huddle__mastheader {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.huddle__mastheader--container {
+  text-align: center;
+}
+
+.huddle__mastheader__heading {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 32px;
+}
+
+.huddle__mastheader__button {
+  background-color: hsl(322, 100%, 66%);
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  border-radius: 30px;
+  margin-top: 20px;
+  color: white;
+}

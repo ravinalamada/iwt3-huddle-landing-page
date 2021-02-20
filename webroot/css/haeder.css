@@ -1,0 +1,24 @@
+.huddle__header--container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline-start: 16px;
+  margin-inline-end: 16px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.huddle__header__btn {
+  border-color: hsl(322, 100%, 66%);
+  color: hsl(322, 100%, 66%);
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+  background-color: transparent;
+  padding-inline-start: 25px;
+  padding-inline-end: 25px;
+  padding-block-start: 10px;
+  padding-block-end: 10px;
+  border-radius: 31px;
+}
