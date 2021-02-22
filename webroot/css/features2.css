@@ -1,8 +1,8 @@
 .huddle--features2 {
   text-align: center;
-  background-image: url('../images/bg-section-bottom-mobile-2.svg');
+  /* background-image: url('../images/bg-section-bottom-mobile-2.svg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 }
 
 .huddle--features2--container {
@@ -22,7 +22,7 @@
 }
 
 @media(min-width: 800px) {
-  .huddle--features2 {
+  /* .huddle--features2 {
     background-image: url('../images/bg-section-bottom-desktop-2.svg');
-  }
+  } */
 }
