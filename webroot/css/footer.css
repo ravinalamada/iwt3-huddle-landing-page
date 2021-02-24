@@ -4,16 +4,19 @@
   background-size: contain;
   background-position: top;
   color: white;
-  padding-bottom: 50px;
+  position: relative;
+  padding-top: 15%;
 }
 
 .huddle__footer--container {
   background: hsl(192, 100%, 9%);
-  padding-top: 100px;
   padding-left: 16px;
   padding-right: 16px;
-  position: relative;
-  top: 2rem;
+  margin-block-start: -1rem;
+}
+
+.huddle__footer--subContainer {
+  padding-top: 100px;
 }
 
 .huddle--footer__fieldset1 {
@@ -53,10 +56,6 @@
   list-style-type: 16px;
   padding-left: 35px;
   padding-right: 35px;
-}
-
-.huddle__footer--wrapper {
-  margin-bottom: 50px;
 }
 
 .huddle__footer__fieldset,
@@ -121,7 +120,7 @@
 }
 
 @media (min-width: 800px) {
-  .huddle__footer--container {
+  .huddle__footer--subContainer {
     max-width: 1114px;
     margin-left: auto;
     margin-right: auto;
