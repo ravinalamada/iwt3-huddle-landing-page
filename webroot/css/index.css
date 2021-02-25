@@ -342,9 +342,6 @@ img {
   padding-inline-start: 41px;
   background-repeat: no-repeat; }
 
-.huddle__footer--input--tel {
-  background-image: url("../images/icon-phone.svg"); }
-
 .huddle__footer__nav {
   margin-top: 40px;
   padding-bottom: 50px; }
@@ -388,6 +385,17 @@ img {
 
 .huddle__footer--input--email {
   background-image: url("../images/icon-email.svg"); }
+
+.huddle__footer--input--email:hover,
+.huddle__footer--input--email:focus {
+  background-image: url("../images/focused-icon-email.svg"); }
+
+.huddle__footer--input--tel {
+  background-image: url("../images/icon-phone.svg"); }
+
+.huddle__footer--input--tel:hover,
+.huddle__footer--input--tel:focus {
+  background-image: url("../images/focused-icon-phone.svg"); }
 
 ::placeholder {
   color: white; }
