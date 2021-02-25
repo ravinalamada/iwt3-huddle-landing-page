@@ -25,6 +25,13 @@ fieldset,
 button {
   border-color: transparent; }
 
+input:focus {
+  background-color: #f5faff;
+  border-color: #ff4242;
+  outline: #ff4242;
+  color: black; }
+
+input
 button {
   cursor: pointer; }
 

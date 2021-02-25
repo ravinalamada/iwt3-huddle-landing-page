@@ -31,6 +31,15 @@ button {
   border-color: transparent;
 }
 
+input:focus {
+  background-color: hsl(207, 100%, 98%);
+  border-color: hsl(0, 100%, 63%);
+  outline: hsl(0, 100%, 63%);
+  color: black;
+}
+
+input
+
 button {
   cursor: pointer;
 }
