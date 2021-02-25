@@ -1,0 +1,36 @@
+.huddle__mastheader {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.huddle__mastheader--container {
+  text-align: center;
+}
+
+.huddle__mastheader__heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 32px;
+}
+
+.huddle__mastheader__button {
+  @include buttons;
+  margin-top: 20px;
+}
+
+.huddle__mastheader__button:hover,
+.huddle__mastheader__button:focus {
+  background-color: hsl(322, 100%, 66%);
+}
+
+@media(min-width: 1000px) {
+  .huddle__mastheader--container {
+    @include desk-break-point;
+  }
+
+  .huddle__mastheader__heading {
+    font-size: 50px;
+  }
+}

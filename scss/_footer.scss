@@ -1,0 +1,165 @@
+.huddle__footer {
+  background-image: url('../images/bg-footer-top-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  color: white;
+  position: relative;
+  padding-top: 15%;
+}
+
+.huddle__footer--container {
+  background: hsl(192, 100%, 9%);
+  @include padding-inline;
+  margin-block-start: -1rem;
+}
+
+.huddle--footer__title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.huddle__footer--subContainer {
+  padding-top: 100px;
+}
+
+.huddle--footer__fieldset1 {
+  width: 90%;
+  border-color: transparent;
+  display: contents;
+}
+
+.huddle--footer__form1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+  margin-bottom: 100px;
+}
+
+.huddle--footer__btn1,
+.huddle--footer__input1 {
+  border-color: transparent;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 9px;
+}
+
+.huddle--footer__input1 {
+  width: 100%;
+  background-color: white;
+  border-color: transparent;
+  cursor: text;
+}
+
+.huddle--footer__btn1 {
+  @include buttons;
+  box-shadow: none;
+  border-radius: 9px;
+}
+
+.huddle--footer__btn1:hover,
+.huddle--footer__btn1:focus {
+  background-color: hsl(322, 100%, 66%);
+}
+
+.huddle__footer__fieldset,
+.huddle__footer--input {
+  background-color: transparent;
+  border-color: transparent;
+  color: white;
+  font-size: 14px;
+}
+
+.huddle__footer--input {
+  position: relative;
+  padding-inline-start: 41px;
+  background-repeat: no-repeat;
+}
+
+.huddle__footer--input--tel {
+  background-image: url('../images/icon-phone.svg');
+}
+
+.huddle__footer__nav {
+  margin-top: 40px;
+  padding-bottom: 50px;
+}
+
+.huddle__footer__list {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+}
+
+.huddle__footer__items {
+  width: 50px;
+}
+
+.huddle__footer__links {
+  display: block;
+  text-indent: -9999px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.huddle__footer__links--facebook {
+  background-image: url(../images/icon-facebook.svg);
+}
+
+.huddle__footer__links--facebook:hover,
+.huddle__footer__links--facebook:focus {
+  background-image: url('../images/focused-facebook_icon');
+  background-size: contain;
+}
+
+.huddle__footer__links--instagram {
+  background-image: url('../images/icon-instagram.svg');
+}
+
+.huddle__footer__links--instagram:hover,
+.huddle__footer__links--instagram:focus {
+  background-image: url('../images/focuesd-instagram.svg');
+}
+
+.huddle__footer__links--twitter {
+  background-image: url('../images/icon-twitter.svg');
+}
+
+.huddle__footer__links--twitter:hover,
+.huddle__footer__links--twitter:focus {
+  background-image: url('../images/focused-twitter.svg');
+}
+
+.huddle__footer--input--email {
+  background-image: url('../images/icon-email.svg');
+}
+
+::placeholder {
+  color:white;
+}
+
+@media (min-width: 1000px) {
+  .huddle__footer--subContainer {
+    @include desk-break-point;
+    @include flex-row;
+    align-items: baseline;
+    flex-direction: row-reverse;
+  }
+
+  .huddle--footer__title {
+    font-size: 30px;
+  }
+
+  .huddle--footer__form1 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .huddle__footer--wrapper {
+    flex-basis: 40%;
+  }
+}
+

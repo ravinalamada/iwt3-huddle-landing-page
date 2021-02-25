@@ -1,0 +1,31 @@
+.huddle--features2 {
+  text-align: center;
+}
+
+.huddle--features2--container {
+  margin-bottom: 100px;
+  padding-top: 100px;
+}
+
+.huddle--features2__btn {
+  @include buttons;
+  margin-top: 20px;
+}
+
+.huddle--features2__btn:hover,
+.huddle--features2__btn:focus {
+  background-color: hsl(322, 100%, 66%);
+}
+
+@media(min-width: 1000px) {
+
+  .huddle--features2--container {
+    @include desk-break-point;
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+
+  .huddle--features2__heading {
+    font-size: 50px;
+  }
+}

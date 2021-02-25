@@ -1,0 +1,22 @@
+.huddle__header--container {
+  @include flex-row;
+  margin-inline-start: 16px;
+  margin-inline-end: 16px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.huddle__header__btn {
+  @include buttons ;
+  border-color: hsl(322, 100%, 66%);
+  color: hsl(322, 100%, 66%);
+  background-color: transparent;
+  box-shadow: none;
+}
+
+@media(min-width: 1000px) {
+
+  .huddle__header--container {
+    @include desk-break-point;
+  }
+}

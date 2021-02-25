@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ravinalamada/iwt3-huddle-landing-page/issues"
   },
-  "homepage": "https://github.com/ravinalamada/iwt3-huddle-landing-page#readme"
+  "homepage": "https://github.com/ravinalamada/iwt3-huddle-landing-page#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
 }
